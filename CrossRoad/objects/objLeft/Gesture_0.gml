@@ -1,0 +1,1 @@
+objPlayer.position -= 1;
