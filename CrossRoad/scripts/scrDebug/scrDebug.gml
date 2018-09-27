@@ -16,6 +16,9 @@ if (keyboard_check_pressed(vk_left)){
 if (keyboard_check_pressed(ord("R"))){
 	room_restart()
 }
+if (keyboard_check_pressed(ord("T"))){
+	global.yMove = 0;
+}
 if (keyboard_check_pressed(vk_end)){
 	game_restart()
 }

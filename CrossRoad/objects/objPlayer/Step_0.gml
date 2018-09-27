@@ -12,6 +12,7 @@ x = lerp(x, positionX,.1);
 
 
 if (angleFlicked < 135) and (angleFlicked > 45) {
-angleFlicked = 0;
-show_debug_message("Going up")
-}
+	angleFlicked = 0;
+	show_debug_message("Going up")
+	global.yMove -= 100;
+} //else if 
