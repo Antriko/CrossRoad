@@ -18,3 +18,7 @@ movedUp = 0;
 
 touched = 0;
 coin = 0;
+
+shake = false;
+shakeTime = 30;
+shakeScale = 10;

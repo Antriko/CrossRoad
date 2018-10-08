@@ -12,6 +12,7 @@ switch (position) {
 	case 10: position = 9; break;
 }
 
+
 x = lerp(x, positionX,.1);
 
 
@@ -31,3 +32,5 @@ if (angleFlicked < 135) and (angleFlicked > 45) {
 	goDown += 1;
 	angleFlicked = 0;
 }
+
+scrShake(shakeScale);	
