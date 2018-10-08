@@ -11,4 +11,10 @@ instance_create_layer(0,0,"Instances",objRight);
 
 
 angleFlicked = 0;
-position = 3;
+position = 5;
+
+goDown = 3;
+movedUp = 0;
+
+touched = 0;
+coin = 0;

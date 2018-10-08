@@ -1,1 +1,0 @@
-global.yMove = 0;
