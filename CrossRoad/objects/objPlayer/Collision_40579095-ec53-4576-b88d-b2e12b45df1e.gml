@@ -1,5 +1,5 @@
+touched += 1;
 scrDownPosition();
-show_debug_message("Cloud hit");
 instance_destroy(other);
 shake = true;
 alarm[0] = shakeTime;

@@ -13,7 +13,7 @@
         "9943c2af-e4a9-4ca3-a715-7276782de1cd",
         "b39ece8f-e945-462c-9265-e8b9770e3646",
         "50112cf7-cada-44f5-af0f-c5e1ef647756",
-        "81dcb420-4517-45da-8d7e-8415b306b008"
+        "8de6a8f3-7a92-48a0-b389-f5fc5e467daf"
     ],
     "filterType": "GMObject",
     "folderName": "inGame",

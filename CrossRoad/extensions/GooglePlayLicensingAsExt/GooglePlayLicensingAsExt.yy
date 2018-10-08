@@ -47,7 +47,7 @@
             "uncompress": false
         }
     ],
-    "gradleinject": "\\u000a\\u000dcompile 'org.jbundle.util.osgi.wrapped:org.jbundle.util.osgi.wrapped.org.apache.http.client:4.1.2'",
+    "gradleinject": "\\u000d\\u000acompile 'org.jbundle.util.osgi.wrapped:org.jbundle.util.osgi.wrapped.org.apache.http.client:4.1.2'",
     "helpfile": "",
     "installdir": "",
     "iosProps": true,

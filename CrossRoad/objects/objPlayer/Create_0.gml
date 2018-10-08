@@ -21,4 +21,4 @@ coin = 0;
 
 shake = false;
 shakeTime = 30;
-shakeScale = 10;
+shakeScale = 4;
