@@ -8,6 +8,21 @@ if (owner.spawnHere != false) {
 
 
 randomthing = irandom(5);
+
+//	Possibility
+//	Enemy	- Starting, most common enemy
+//	Coin	- 1 every 6-8 lanes
+//	Comm	- 
+//	Fast	- Starts showing after score > 25
+//	Clouds	- Frequent
+//	Bonus	- Appears once every 20 lanes
+bonus = 20
+if (objPlayer.movedUp/bonus = floor(objPlayer.movedUp/bonus)) {
+	show_debug_message("Bonus spawn at score " + string(objPlayer.movedUp))
+	randomthing = 6;
+}
+
+
 switch (randomthing) {
 	case 0: owner.spawnHere = false; break;
 	case 1: owner.spawnHere = "enemy";	
@@ -46,6 +61,15 @@ switch (randomthing) {
 			while (owner.random1 = owner.random2) {
 				owner.random2 = irandom(8)	
 			}
+	case 6: owner.spawnHere = "bonus";
+			if (irandom(1) = 1) {
+				owner.spawnPlace = owner.spawnRight;
+				owner.move = random_range(4, 8);
+			} else {
+				owner.spawnPlace = owner.spawnLeft;
+				owner.move = random_range(-4, -8);
+			}
+			break;
 }
 
 owner.j = 0;

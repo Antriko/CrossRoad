@@ -35,4 +35,7 @@ if (keyboard_check_pressed(vk_right)){
 }
 if (keyboard_check_pressed(vk_left)){
 	objPlayer.position -= 1;
+}
+if (keyboard_check_pressed(vk_add)){
+	objPlayer.touched -= 1;
 }}

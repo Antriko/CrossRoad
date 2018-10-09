@@ -42,7 +42,7 @@
             "Key": "015af2fd-6be2-4ba7-8c65-ccc48bbf8152",
             "Value": {
                 "id": "8594adf7-90e0-4551-9ba8-9737cb6977ed",
-                "resourcePath": "scripts\\scrGetCoins\\scrGetCoins.yy",
+                "resourcePath": "scripts\\scrGetData\\scrGetData.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -71,19 +71,19 @@
             }
         },
         {
+            "Key": "02948017-c4b1-4135-973a-cb716d143370",
+            "Value": {
+                "id": "224c5fd1-0523-42a8-ba41-89e3835501a5",
+                "resourcePath": "objects\\objPrivateJet\\objPrivateJet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0299a9d4-b79e-48fe-b190-300fd28616d5",
             "Value": {
                 "id": "eb9d9681-451f-4974-9a13-212d2141249c",
                 "resourcePath": "rooms\\roomMenu\\roomMenu.yy",
                 "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "07c6081c-bbc0-4a82-ad00-cbeefcae6f45",
-            "Value": {
-                "id": "c2788532-942e-42b6-8416-3ff50fecf872",
-                "resourcePath": "paths\\path0\\path0.yy",
-                "resourceType": "GMPath"
             }
         },
         {
@@ -420,6 +420,14 @@
                 "id": "7cb4b6ea-40f6-4596-b46e-9b3047f6aea8",
                 "resourcePath": "options\\ios\\options_ios.yy",
                 "resourceType": "GMiOSOptions"
+            }
+        },
+        {
+            "Key": "8542cf43-aa46-4b6b-b16e-adcbf8222291",
+            "Value": {
+                "id": "5d63d8da-1ac5-4220-b9ee-ca044944ebb7",
+                "resourcePath": "sprites\\sprPrivateJet\\sprPrivateJet.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

@@ -21,6 +21,9 @@ switch (spawnHere) {
 						obstacle[i].owner = id;
 					}
 					break;
+	case "bonus":	obstacle[j] = instance_create_layer(spawnPlace, y, "Instances", objPrivateJet);
+					obstacle[j].owner = id;
+					break;
 }
 
 j += 1;

@@ -5,3 +5,5 @@ draw_set_valign(fa_center);
 
 draw_text(cgvx+(cgvw*.5), cgvy+(cgvh*.2), "SCORE: " + string(objControl.finalScore));
 draw_text(cgvx+(cgvw*.5), cgvy+(cgvh*.25), "COINS: " + string(objControl.CoinsCollected));
+
+draw_text(cgvx+(cgvw*.5), cgvy+(cgvh*.8), "HIGHSCORE: " + string(objControl.highscore));
