@@ -37,10 +37,7 @@ if ((objPlayer.movedUp+1)/bigBonus = floor((objPlayer.movedUp+1)/bigBonus)) {
 	spawnList = 11; owner.part = 1;
 }
 
-spawnItem = 10
-if (objPlayer.movedUp/spawnItem = floor(objPlayer.movedUp/spawnItem)) {
-	owner.spawnItem = true;
-}
+
 
 switch (spawnList) {
 	case 0: owner.spawnHere = false; break;
@@ -111,6 +108,12 @@ switch (spawnList) {
 					break;
 			}
 			break;
+}
+
+
+spawnItem = 30;
+if (objPlayer.movedUp/spawnItem = floor(objPlayer.movedUp/spawnItem)) and (owner.spawnHere = "bigBonus" or "cloud") {
+	owner.spawnItem = true;
 }
 
 owner.j = 0;
