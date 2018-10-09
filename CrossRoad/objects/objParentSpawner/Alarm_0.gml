@@ -17,6 +17,15 @@ switch (spawnHere) {
 					break;
 	case "cloud":	for (i = 0; i < 3; i++) {
 						randomNum[i] = irandom(8);
+						if (i = 1) {
+							while (randomNum[0] = randomNum[i]) {
+								randomNum[i] = irandom(8);
+							}
+						} else if (i = 2) {
+							while (randomNum[0] = randomNum[i]) or (randomNum[1] = randomNum[i]) {
+								randomNum[i] = irandom(8);
+							}
+						}
 						obstacle[i] = instance_create_layer(cgvx+(cgvw*((randomNum[i]+1)/10)),y,"Instances",objCloud);
 						obstacle[i].owner = id;
 					}
@@ -24,6 +33,36 @@ switch (spawnHere) {
 	case "bonus":	obstacle[j] = instance_create_layer(spawnPlace, y, "Instances", objPrivateJet);
 					obstacle[j].owner = id;
 					break;
+	case "bigBonus":
+					switch (part) {
+						case 1:	obstacle[j] = instance_create_layer(spawnPlace, y, "Instances", objBig1);
+								obstacle[j].owner = id;	break;
+						case 2:	obstacle[j] = instance_create_layer(spawnPlace, y, "Instances", objBig2);
+								obstacle[j].owner = id;	break;
+						case 3:	obstacle[j] = instance_create_layer(spawnPlace, y, "Instances", objBig3);
+								obstacle[j].owner = id;	break;
+					}
+					for (i = 1; i <= 9; i++) {
+						obstacle[i] = instance_create_layer(cgvx+(cgvw*(i/10)),y,"Instances",objCoin);
+						obstacle[i].owner = id;
+					}
+										
+					break;
+}
+
+
+if (spawnItem = true) {
+	spawnItem = false;
+	switch (irandom(1)) {
+		case 0:
+			obstacle[j] = instance_create_depth(x,y,"Instances",objCoinBurst);
+			obstacle[j].owner = id;
+			break;
+		case 1:
+			obstacle[j] = instance_create_depth(x,y,"Instances",objLifeSpawn);
+			obstacle[j].owner = id;
+			break;
+	}
 }
 
 j += 1;

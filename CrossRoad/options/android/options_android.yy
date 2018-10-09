@@ -38,9 +38,9 @@
     "option_android_orient_landscape_flipped": false,
     "option_android_orient_portrait": true,
     "option_android_orient_portrait_flipped": true,
-    "option_android_package_company": "alisarsolutions",
+    "option_android_package_company": "company",
     "option_android_package_domain": "com",
-    "option_android_package_product": "planesandbirds",
+    "option_android_package_product": "game",
     "option_android_permission_bluetooth": false,
     "option_android_permission_internet": true,
     "option_android_permission_network_state": true,
@@ -63,7 +63,7 @@
     "option_android_tv_isgame": true,
     "option_android_use_facebook": false,
     "option_android_version": {
-        "build": 0,
+        "build": 1,
         "major": 1,
         "minor": 0,
         "revision": 0

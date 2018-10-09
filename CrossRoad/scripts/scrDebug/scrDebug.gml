@@ -37,5 +37,14 @@ if (keyboard_check_pressed(vk_left)){
 	objPlayer.position -= 1;
 }
 if (keyboard_check_pressed(vk_add)){
-	objPlayer.touched -= 1;
+	objPlayer.touched -= 10;
+}
+if (keyboard_check_pressed(vk_multiply)){
+	objPlayer.movedUp += 10;
+}
+if (keyboard_check_pressed(ord("T"))){
+	switch (objParentSpawner.debug) {
+		case true: objParentSpawner.debug = false; break;
+		case false: objParentSpawner.debug = true; break;
+	}
 }}

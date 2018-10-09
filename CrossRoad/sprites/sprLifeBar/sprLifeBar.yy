@@ -2,7 +2,7 @@
     "id": "15fe0853-2e4a-46e0-b3cf-fcbc8666b382",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sprite14",
+    "name": "sprLifeBar",
     "For3D": false,
     "HTile": false,
     "VTile": false,

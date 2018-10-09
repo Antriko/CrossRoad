@@ -1,5 +1,3 @@
-i = 0;
-
 scrCamera();
 objInitialiseSpawner.childList[scrFindFirstID()].y = cgvy+(cgvh*(beginingPosition+(dist*(arLen-1))));
 

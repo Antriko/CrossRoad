@@ -10,7 +10,7 @@
         "90cd49b0-4fe9-4b77-859d-cb844bb33484"
     ],
     "filterType": "GMSprite",
-    "folderName": "objPause",
+    "folderName": "grpPause",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

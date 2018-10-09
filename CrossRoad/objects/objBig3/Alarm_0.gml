@@ -1,0 +1,1 @@
+objPlayer.xMove = objParentSpawner.otherMove;

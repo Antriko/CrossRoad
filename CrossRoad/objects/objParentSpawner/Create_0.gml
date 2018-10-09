@@ -5,6 +5,9 @@ setNew = false;
 spawnRight = 1200;
 spawnLeft = -120;
 spawnHere = false;
+spawnItem = false;
+move = 0;
+debug = false;
 
 randomthing = irandom(3); show_debug_message(randomthing);
 if (randomthing = 1) {

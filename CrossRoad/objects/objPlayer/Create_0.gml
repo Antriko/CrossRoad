@@ -14,7 +14,7 @@ angleFlicked = 0;
 position = 5;
 
 goDown = 3;
-movedUp = 0;
+movedUp = 1;
 
 touched = 0;
 coin = 0;
@@ -22,3 +22,5 @@ coin = 0;
 shake = false;
 shakeTime = 30;
 shakeScale = 4;
+
+xMove = 0;

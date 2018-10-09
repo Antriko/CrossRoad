@@ -28,6 +28,7 @@ if (angleFlicked < 135) and (angleFlicked > 45) {
 		goDown = 0
 	}
 } else if (angleFlicked < 315) and (angleFlicked > 225) and (goDown < 3) {
+	objMiniChild.setNew = false;
 	scrDownPosition();
 	goDown += 1;
 	angleFlicked = 0;
