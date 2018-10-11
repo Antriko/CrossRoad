@@ -1,0 +1,1 @@
+objShopInitalise.selected = id_;
