@@ -1,4 +1,4 @@
-if (objPlayer.destroy = true) {
+if (objPlayer.destroy = true) or (y > room_width) {
 	instance_destroy(self);
 }
 

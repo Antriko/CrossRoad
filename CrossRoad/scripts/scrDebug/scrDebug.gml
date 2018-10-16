@@ -40,10 +40,11 @@ if (room = roomPlay) {
 		objPlayer.movedUp += 10;
 	}
 	if (keyboard_check_pressed(vk_subtract)){
-		for (i = 0; i < 5; i++) {
-			scrUpPosition();
-			objPlayed.movedUp += 1;
-		}
+		k = 5;
+	}
+	if (k != 0) {
+		objPlayer.angleFlicked = 50;
+		k -= 1;
 	}
 	if (keyboard_check_pressed(ord("T"))){
 		switch (objParentSpawner.debug) {

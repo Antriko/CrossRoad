@@ -1,7 +1,7 @@
 scrCamera();
-scale = 3;
+scale = 2;
 image_xscale = scale;
 image_yscale = scale;
 
-x = cgvx+(cgvw*.5);
+x = cgvx+(cgvw*.8);
 y = cgvy+(cgvh*.8);
