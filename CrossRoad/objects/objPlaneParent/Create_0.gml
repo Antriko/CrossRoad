@@ -11,3 +11,6 @@ image_yscale = scale;
 
 width = sprite_width;
 height = sprite_height;
+
+
+spawn = true

@@ -2,7 +2,7 @@ y = owner.y;
 yy = y;
 
 if (selfDestruct = 1) {
-	image_alpha -= 0.005;
+	image_alpha -= 0.0035;
 	if (image_alpha <= 0.05) {
 		instance_destroy(self);	
 	}

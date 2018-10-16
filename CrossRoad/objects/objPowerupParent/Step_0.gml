@@ -19,3 +19,5 @@ if (createItems = true) {
 	item = instance_create_layer(x,y, "Instances", objShopInitalise.powerItem[id_ - 1]);
 	item.owner = id;
 }
+
+x = lerp(x, xpos, .2);

@@ -1,1 +1,2 @@
-objPlayer.xMove = objParentSpawner.otherMove;
+objPlayer.xMove = -4;
+objPlayer.destroy = true;

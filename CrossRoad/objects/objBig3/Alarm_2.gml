@@ -1,0 +1,1 @@
+objPlayer.destroy = false;

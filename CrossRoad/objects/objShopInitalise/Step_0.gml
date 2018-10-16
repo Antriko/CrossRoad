@@ -17,10 +17,10 @@ if (initiatePowerupShop = true) {
 	planeLen = array_length_1d(planes)
 	
 	for (i = 0; i < planeLen; i++) {
-		planes[i].x = 5000;
+		planes[i].xpos = 2520;
 	}
 	for (i = 0; i < powerLen; i++) {
-		powerUps[i].x = cgvx+(cgvw*.5);
+		powerUps[i].xpos = cgvx+(cgvw*.5);
 	} 
 
 } else if (initiatePlaneShop = true) {
@@ -32,9 +32,9 @@ if (initiatePowerupShop = true) {
 	planeLen = array_length_1d(planes)
 	
 	for (i = 0; i < powerLen; i++) {
-		powerUps[i].x = 5000;
+		powerUps[i].xpos = -1080;
 	}
 	for (i = 0; i < planeLen; i++) {
-		planes[i].x = cgvx+(cgvw*.5);
+		planes[i].xpos = cgvx+(cgvw*.5);
 	} 
 }

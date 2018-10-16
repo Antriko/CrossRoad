@@ -1,5 +1,4 @@
 //Delete old lane
-show_debug_message(owner.id_)
 if (owner.spawnHere != false) {
 	arrayLen = array_length_1d(owner.obstacle); 
 	for (i = 0; i < arrayLen; i++) {
@@ -23,7 +22,6 @@ spawnList = irandom(5);
 
 bonus = 20
 if (objPlayer.movedUp/bonus = floor(objPlayer.movedUp/bonus)) {
-	show_debug_message("Bonus spawn at score " + string(objPlayer.movedUp))
 	spawnList = 6;
 }
 
@@ -112,7 +110,7 @@ switch (spawnList) {
 
 
 spawnItem = 30;
-if (objPlayer.movedUp/spawnItem = floor(objPlayer.movedUp/spawnItem)) and (owner.spawnHere = "bigBonus" or "cloud") {
+if (objPlayer.movedUp/spawnItem = floor(objPlayer.movedUp/spawnItem)) and (owner.spawnHere != "bigBonus" or "cloud") {
 	owner.spawnItem = true;
 }
 

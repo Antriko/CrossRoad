@@ -16,12 +16,9 @@ for (i = 0; i <= 10; i++) {
 
 
 	
-dist = .1;
-beginingPosition = .025;
+
 for (i = 0; i<= 10; i++){
-	position[i] = beginingPosition + (i*dist);
+	position[i] = objControl.beginingPosition + (i*objControl.dist);
 }
 
 scrCamera();
-objPlayer.y = cgvy+(cgvh*position[7]);
-show_debug_message(position)

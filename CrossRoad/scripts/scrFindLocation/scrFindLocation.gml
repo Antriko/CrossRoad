@@ -1,6 +1,6 @@
 i = 0;
-dist = objInitialiseSpawner.dist;
-cuurentPos = objInitialiseSpawner.beginingPosition;
+dist = objControl.dist;
+cuurentPos = objControl.beginingPosition;;
 arLen = array_length_1d(objInitialiseSpawner.position);
 
 for (i = 0; i < arLen; i++) {
