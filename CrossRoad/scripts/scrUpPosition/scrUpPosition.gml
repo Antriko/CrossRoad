@@ -6,8 +6,8 @@ beginingPosition = objControl.beginingPosition;;
 arLen = array_length_1d(objInitialiseSpawner.position);
 
 for(i = 0; i < arLen; i++){
-	if (objInitialiseSpawner.position[i] = beginingPosition+(dist*(arLen-1))){
-	objInitialiseSpawner.position[i] = beginingPosition;
+	if (objInitialiseSpawner.position[i] = beginingPosition+(dist*(arLen-1))){	//last number in the distance
+	objInitialiseSpawner.position[i] = beginingPosition;						//goes back to the start
 	} else {
 	objInitialiseSpawner.position[i] += dist;
 	}

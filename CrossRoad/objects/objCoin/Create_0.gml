@@ -3,4 +3,4 @@ selfDestruct = 0;
 idReset = 0;
 coinBurst = false;
 xx = x;
-spread = 172;
+spread = 224;

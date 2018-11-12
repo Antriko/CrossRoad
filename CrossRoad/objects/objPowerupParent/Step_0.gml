@@ -1,13 +1,12 @@
 //Powerups
-if (id_ > objShopInitalise.selected and id_ != 7) {
+if (id_ > objShopInitalise.selected) {
 	y = lerp(y, startY+(id_*(height+(height/4)))+objShopInitalise.difference+height,lerpSpeed);
 } else {
 	y = lerp(y, startY+(id_*(height+(height/4)))+objShopInitalise.difference,lerpSpeed);
 }
 
-if (id_ = objShopInitalise.selected and id_ < 7) {
+if (id_ = objShopInitalise.selected) {
 	scale = lerp(scale, startingScale*2, lerpSpeed)
-
 } else {
 	scale = lerp(scale, startingScale, lerpSpeed);	
 }

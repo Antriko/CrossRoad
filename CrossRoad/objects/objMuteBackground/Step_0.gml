@@ -1,4 +1,4 @@
 switch (objSound.backgroundMusic) {
-	case 0: sprite_index = sprMuted; break;
-	case 1: sprite_index = sprUnmuted; break;
+	case false: sprite_index = sprMuted; break;
+	case true: sprite_index = sprUnmuted; break;
 }

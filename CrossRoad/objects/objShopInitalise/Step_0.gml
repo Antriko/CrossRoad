@@ -3,8 +3,8 @@ if (spawn = true) {
 	for (i = 0; i < array_length_1d(powerItem); i++) {
 		powerUps[i] = instance_create_layer(0,0,"Instances", shopItem[i]);
 	}
-	for (i = 0; i < array_length_1d(planeItem); i++) {
-		planes[i] = instance_create_layer(0,0,"Instances", planeItem[i]);
+	for (i = 0; i < array_length_1d(planeBorder); i++) {
+		planes[i] = instance_create_layer(0,0,"Instances", planeBorder[i]);
 	}
 }
 

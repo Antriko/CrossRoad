@@ -1,5 +1,5 @@
 scrCamera();
-depth = -100;
+depth = -3;
 x = cgvx+(cgvw*.25)
 y = cgvy+(cgvh*.2)
 

@@ -1,6 +1,6 @@
 id_ = 0;
 scrCamera();
-startY = 128;
+startY = -192;
 x = cgvx+(cgvw*.5);
 startingScale = 3;
 scale = startingScale;

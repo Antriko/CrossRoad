@@ -54,17 +54,17 @@ switch (spawnHere) {
 if (spawnItem = true) {
 	spawnItem = false;
 	var yAxis = scrMovement(irandom(6));
-	switch (2) {
+	switch (irandom(2)) {
 		case 0:
-			obstacle[j] = instance_create_depth(x,yAxis,"Instances",objCoinBurst);
+			obstacle[j] = instance_create_layer(x,yAxis,"Instances",objCoinBurst);
 			obstacle[j].owner = id;
 			break;
 		case 1:
-			obstacle[j] = instance_create_depth(x,yAxis,"Instances",objLifeSpawn);
+			obstacle[j] = instance_create_layer(x,yAxis,"Instances",objLifeSpawn);
 			obstacle[j].owner = id;
 			break;
 		case 2:
-			obstacle[j] = instance_create_depth(x,yAxis,"Instances",objPlanePickup);
+			obstacle[j] = instance_create_layer(x,yAxis,"Instances",objPlanePickup);
 			obstacle[j].owner = id;
 			break;
 	}

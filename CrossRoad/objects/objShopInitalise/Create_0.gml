@@ -13,12 +13,19 @@ powerItem[3] = objPower4;
 powerItem[4] = objPower5;
 powerItem[5] = objPower6;
 
-planeItem[0] = objPlane1;
-planeItem[1] = objPlane2;
-planeItem[2] = objPlane3;
-planeItem[3] = objPlane4;
-planeItem[4] = objPlane5;
-planeItem[5] = objPlane6;
+planeBorder[0] = objPlaneBorder1;
+planeBorder[1] = objPlaneBorder2;
+planeBorder[2] = objPlaneBorder3;
+planeBorder[3] = objPlaneBorder4;
+planeBorder[4] = objPlaneBorder5;
+planeBorder[5] = objPlaneBorder6;
+
+planeItem[0] = objPlaneItem1;
+planeItem[1] = objPlaneItem2;
+planeItem[2] = objPlaneItem3;
+planeItem[3] = objPlaneItem4;
+planeItem[4] = objPlaneItem5;
+planeItem[5] = objPlaneItem6;
 
 planeParts1[0] = objPlane1Part1;
 planeParts1[1] = objPlane1Part2;
@@ -52,13 +59,16 @@ planeParts6[3] = objPlane6Part4;
 
 
 shopLen = array_length_1d(shopItem);
-planeLen = array_length_1d(planeItem);
+planeLen = array_length_1d(planeBorder);
 powerUps[0] = false;
 planes[0] = false;
 
-instance_create_layer(x,y,"Instances",objPowerupSelect);
-instance_create_layer(x,y,"Instances",objPlaneSelect);
-instance_create_layer(x,y,"Instances",objBack);
+instance_create_layer(x,y,"Instances1",objPowerupSelect);
+instance_create_layer(x,y,"Instances1",objPlaneSelect);
+instance_create_layer(x,y,"Instances1",objGoBack);
+
+instance_create_layer(x,y,"Instances",objTop);
+instance_create_layer(x,y,"Instances",objBottom);
 
 scrCamera();
 spawn = true;

@@ -2,11 +2,13 @@ scrCamera();
 
 x = cgvx+(cgvw*.5);
 
-image_xscale = 4;
-image_yscale = 4;
 
 instance_create_layer(0,0,"Instances",objLeft);
 instance_create_layer(0,0,"Instances",objRight);
+instance_create_layer(0,0,"Instances",objInitialiseSpawner);
+
+instance_create_layer(0,0,"GUI",objPause);
+instance_create_layer(0,0,"GUI",objLives);
 
 
 angleFlicked = 0;

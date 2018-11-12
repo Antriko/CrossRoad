@@ -1,2 +1,2 @@
-backgroundMusic = 1;
-soundEffects = 1;
+backgroundMusic = true;
+soundEffects = true;

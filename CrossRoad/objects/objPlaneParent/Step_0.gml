@@ -23,7 +23,7 @@ if (spawn = true) {
 		}
 		planePart[i].id_ = i;
 		planePart[i].owner = id;
-		planePart[i].depth = -1000;
+		planePart[i].depth = -1;
 	}
 }
 
@@ -35,7 +35,6 @@ if (id_ > objShopInitalise.selected) {
 
 if (id_ = objShopInitalise.selected) {
 	scale = lerp(scale, startingScale*2, lerpSpeed)
-
 } else {
 	scale = lerp(scale, startingScale, lerpSpeed);	
 }
@@ -43,3 +42,9 @@ if (id_ = objShopInitalise.selected) {
 image_yscale = scale;
 
 x = lerp(x, xpos, .2);
+
+if (createItems = true) {
+	createItems = false;
+	item = instance_create_layer(x,y, "Instances", objShopInitalise.planeItem[id_ - 1]);
+	item.owner = id;
+}
